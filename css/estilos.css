@@ -1,0 +1,13 @@
+body {background-color: #AEB6BF;}
+
+#titulo {color:#1A237E; font-family:didot New; background-color:#FDFEFE; font-size:300%;text-align: center;}
+
+.imagen {height: 300px; width: 300px; border:3; border-color: black; border-style: solid;;}
+
+.subtitulos {color:#E8F8F5; text-decoration: underline;text-decoration-color: #1A237E; text-decoration-style: wavy; background-color:#566573; font-family: cursive;text-align: center;}
+
+.explicacion {font-family: sans-serif; text-align: center;;}
+
+.receta {color:#E8F8F5; text-decoration: underline;text-decoration-color: #1A237E; background-color:#566573;font-size: 300%; }
+
+.subtitulos2 {color:#154360; text-decoration: underline;text-decoration-color: #1A237E; text-decoration-style:  solid;}
