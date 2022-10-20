@@ -1,4 +1,12 @@
-body {background-color: #AEB6BF;}
+body {background-color: #AEB6BF;
+      background-image: url(../imagenes/fondo2.JPG);
+}
+
+header {background-color: white;}
+
+nav {background-color: white}
+
+footer ul {list-style: none;}
 
 #titulo {color:#1A237E; font-family:didot New; background-color:#FDFEFE; font-size:300%;text-align: center;}
 
@@ -6,8 +14,18 @@ body {background-color: #AEB6BF;}
 
 .subtitulos {color:#E8F8F5; text-decoration: underline;text-decoration-color: #1A237E; text-decoration-style: wavy; background-color:#566573; font-family: cursive;text-align: center;}
 
-.explicacion {font-family: sans-serif; text-align: center;;}
+.explicacion {font-family: sans-serif; text-align: center; font-size: 100%}
 
 .receta {color:#E8F8F5; text-decoration: underline;text-decoration-color: #1A237E; background-color:#566573;font-size: 300%; }
 
 .subtitulos2 {color:#154360; text-decoration: underline;text-decoration-color: #1A237E; text-decoration-style:  solid;}
+
+.audio {position: fixed; bottom: 10px; right: 15px}
+
+.wsp {width: 70px; position: fixed; bottom: 10px; right: 15px}
+
+.face {width: 50px}
+
+.insta {width: 50px}
+
+.tw {width: 55px}
