@@ -2,22 +2,34 @@ body {background-color: #AEB6BF;
       background-image: url(../imagenes/fondo2.jpg);
 }
 
-header {background-color: white; align-content:center;}
+header {border-style: inset;background-color: #CFD8DC; display: flex;justify-content: center;  justify-content:space-around;
+        align-items: center;flex-wrap: wrap; font-family: 'monotype corsiva'; font-size: 30px;color:#34495E}
 
-nav {background-color: white; align-content: center;}
+.redes {height: 75px; width: 250px; background-color: #AEB6BF; display: flex; justify-content: space-around;align-items: center;border-radius: 5px;}
 
-footer ul {list-style: none; align-content: center;}
+.imgheader {border-radius: 5px}
 
-section {align-content: center;}
+nav {background-color: white; display: flex; justify-content:space-around;}
 
-aside {align-content: center;}
+main {display: flex;justify-content: space-around;}
 
+section { display: flex; width: 60%; justify-content: center;overflow:auto;display: block; opacity:0.9 }
 
-#titulo {color:#1A237E; font-family:didot New; background-color:#FDFEFE; font-size:300%;text-align: center;}
+aside {display: flex;width: 35%;justify-content: center;align-items:center;align-self: center;overflow:auto;display: block; opacity:0.9 }
+
+footer {border-style: inset;background-color: #CFD8DC; display: flex;justify-content: center;  justify-content:space-around;
+        align-items: center;flex-wrap: wrap; font-family: 'monotype corsiva'; font-size: 30px;color:#34495E;}
+
+.mapa {width: 100px;height: 100px}
+
+.autor {text-align: center;}
+
+#titulo {color:#1A237E; font-family:'Copperplate Gothic'; background-color:#FDFEFE; font-size:300%;text-align: center;}
 
 .imagen {height: 300px; width: 300px; border:3; border-color: black; border-style: solid;;}
 
-.subtitulos {color:#E8F8F5; text-decoration: underline;text-decoration-color: #1A237E; text-decoration-style: wavy; background-color:#566573; font-family: cursive;text-align: center;}
+.subtitulos {color:#E8F8F5; text-decoration: underline;text-decoration-color: #1A237E; text-decoration-style: wavy;
+             background-color:#566573; font-family: cursive;text-align: center;}
 
 .explicacion {font-family: sans-serif; text-align: center; font-size: 100%;}
 
@@ -27,10 +39,14 @@ aside {align-content: center;}
 
 .audio {position: fixed; bottom: 10px; right: 15px}
 
+.video {display: flex; justify-content: center; align-items: center;}
+
+.video1 {width: 400px;height: 400px}
+
 .wsp {width: 100px; position: fixed; bottom: 20px; right: 35px}
 
-.face {width: 50px}
+.face {width: 50px;border-radius: 10px}
 
-.insta {width: 50px}
+.insta {width: 50px;border-radius: 10px}
 
-.tw {width: 55px}
+.tw {width: 50px; height: 50px; border-radius: 10px}
