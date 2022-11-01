@@ -1,52 +1,160 @@
 body {background-color: #AEB6BF;
-      background-image: url(../imagenes/fondo2.jpg);
-}
+      background-image: url(../imagenes/fondo.jpg);}
 
-header {border-style: inset;background-color: #CFD8DC; display: flex;justify-content: center;  justify-content:space-around;
-        align-items: center;flex-wrap: wrap; font-family: 'monotype corsiva'; font-size: 30px;color:#34495E}
+header {width: 100vw;
+        height: 25vh;
+        border-style: inset;
+        background-color:#2C3E50;
+        display: flex;
+        justify-content: center;
+        justify-content:space-around;
+        align-items: center;
+        flex-wrap:nowrap;
+        font-family: 'Sansita Swashed', cursive;
+        font-size: 30px;
+        color: #AEB6BF}
 
-.redes {height: 75px; width: 250px; background-color: #AEB6BF; display: flex; justify-content: space-around;align-items: center;border-radius: 5px;}
+.redes {height:50%;
+        width: 15%;
+        background-color:#34495E;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 5%;}
 
-.imgheader {border-radius: 5px}
+.imgheader {border-radius: 5%;}
 
-nav {background-color: white; display: flex; justify-content:space-around;}
+nav {background-color:#34495E;
+    color: #AEB6BF;
+    font-weight: bold;
+    font-size: 150%;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 5vw}
 
-main {display: flex;justify-content: space-around;}
+a:visited {color: #AEB6BF}
+a:link {color: #AEB6BF}
+a:active {color: #AEB6BF}
+a:hover {font-size: 150%; font-style:oblique;}
 
-section { display: flex; width: 60%; justify-content: center;overflow:auto;display: block; opacity:0.9 }
+main {display: flex;
+      justify-content:space-around;}
 
-aside {display: flex;width: 35%;justify-content: center;align-items:center;align-self: center;overflow:auto;display: block; opacity:0.9 }
+section {display: flex;
+        width: 60vw;
+        justify-content: center;
+        overflow:auto;
+        display: block;
+        opacity:0.9;
+        background-color: #99A3A4;
+        height: 100%}
 
-footer {border-style: inset;background-color: #CFD8DC; display: flex;justify-content: center;  justify-content:space-around;
-        align-items: center;flex-wrap: wrap; font-family: 'monotype corsiva'; font-size: 30px;color:#34495E;}
+aside {display: flex;
+       width: 35vw;
+       justify-content: center;
+       align-items:center;
+       overflow:auto;
+       display: block;
+       opacity:0.9;
+       background-color: #99A3A4;
+       font-size:120%;
+       height: 100%}
 
-.mapa {width: 100px;height: 100px}
+footer {width: 100vw;
+        height: 15vh;
+        border-style: inset;
+        background-color:#2C3E50;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        justify-content:space-around;
+        align-items: center;
+        flex-wrap:nowrap;
+        font-family: 'Sansita Swashed', cursive;
+        font-size: 15px;
+        color: #AEB6BF}
 
-.autor {text-align: center;}
+.mapa {width: 15%;
+      height: 75%}
 
-#titulo {color:#1A237E; font-family:'Copperplate Gothic'; background-color:#FDFEFE; font-size:300%;text-align: center;}
+.autor {text-align: center;
+        flex-direction: column;}
 
-.imagen {height: 300px; width: 300px; border:3; border-color: black; border-style: solid;;}
+#titulo {color:#1A237E;
+         font-family: 'Aladin', cursive;
+         background-color:#FDFEFE;
+         font-size:300%;
+         text-align: center;}
 
-.subtitulos {color:#E8F8F5; text-decoration: underline;text-decoration-color: #1A237E; text-decoration-style: wavy;
-             background-color:#566573; font-family: cursive;text-align: center;}
+.imagen {height: 300px;
+         width: 300px;
+         border:3;
+         border-color: black;
+         border-style: solid;}
 
-.explicacion {font-family: sans-serif; text-align: center; font-size: 100%;}
+.subtitulos {color:#E8F8F5;
+            text-decoration: underline;
+            text-decoration-color: #1A237E;
+            text-decoration-style: wavy;
+            background-color:#566573;
+            font-family: 'Alegreya', serif;
+            text-align: center;}
 
-.receta {color:#E8F8F5; text-decoration: underline;text-decoration-color: #1A237E; background-color:#566573;font-size: 300%; }
+.explicacion {font-family: 'Roboto Slab', serif;
+              text-align: center;
+              font-size: 120%;}
 
-.subtitulos2 {color:#154360; text-decoration: underline;text-decoration-color: #1A237E; text-decoration-style:  solid;}
+.receta {color:#E8F8F5;
+         font-family: 'Alegreya', serif;
+         text-decoration: underline;
+         text-decoration-color: #1A237E;
+         background-color:#566573;
+         font-size: 250%;
+         text-align: center;}
 
-.audio {position: fixed; bottom: 10px; right: 15px}
+.expreceta {font-family: 'Roboto Slab', serif;
+            font-size: 100%}
 
-.video {display: flex; justify-content: center; align-items: center;}
 
-.video1 {width: 400px;height: 400px}
+.audio {position: fixed;
+        bottom: 10px;
+        right: 15px}
 
-.wsp {width: 100px; position: fixed; bottom: 20px; right: 35px}
+.video {display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;}
 
-.face {width: 50px;border-radius: 10px}
+.txtvideo {color:#E8F8F5;
+          font-family: 'Alegreya', serif;
+          text-align: center;
+          background-color:#566573;}
 
-.insta {width: 50px;border-radius: 10px}
+.wsp {width: 100px;
+      position: fixed;
+      bottom: 20px;
+      right: 35px}
 
-.tw {width: 50px; height: 50px; border-radius: 10px}
+.face {width: 50px;
+      border-radius: 10px}
+
+.insta {width: 50px;
+        border-radius: 10px}
+
+.tw {width: 50px;
+    height: 50px;
+    border-radius: 10px}
+
+.formulario {display: flex;
+            width: 50vw;
+            justify-content: center;
+            overflow:auto;
+            display: block;
+            opacity:0.9;
+            height: 100%}
+
+.boton {background-color: #273746;
+        border-style:outset;
+        color:#ABB2B9}
