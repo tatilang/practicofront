@@ -1,5 +1,6 @@
 body {background-color: #AEB6BF;
-      background-image: url(../imagenes/fondo.jpg);}
+      background-image: url(../imagenes/fondo.jpg);
+      width: 100vw}
 
 header {width: 100vw;
         height: 25vh;
@@ -53,7 +54,7 @@ section {display: flex;
         display: block;
         opacity:0.9;
         background-color: #99A3A4;
-        height: 100vw;
+        height: 100%;
         box-sizing:border-box;
         padding-left: 2%;
         padding-right: 2%}
@@ -88,8 +89,9 @@ section {display: flex;
 
 
 aside {display: flex;
-       height: 100vw;
+       height: 100%;
        width: 35vw;
+       overflow: auto;
        flex-direction: column;
        justify-content:space-between;
        align-items:center;
@@ -118,10 +120,10 @@ aside {display: flex;
 
 
 .expreceta {font-family: 'Roboto Slab', serif;
-              font-size: 150%}
+              font-size: 120%}
 
 .imagen2 {width: 75%;
-          height: 20%;
+          height: 15%;
           border:3;
           border-color: black;
           border-style: solid;}
