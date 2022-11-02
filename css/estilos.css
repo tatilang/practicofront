@@ -14,7 +14,7 @@ header {width: 100vw;
         font-size: 30px;
         color: #AEB6BF}
 
-.redes {height:50%;
+.redes {height:60%;
         width: 15%;
         background-color:#34495E;
         display: flex;
@@ -22,7 +22,8 @@ header {width: 100vw;
         align-items: center;
         border-radius: 5%;}
 
-.imgheader {border-radius: 5%;}
+.imgheader {border-radius: 5%;
+            height: 60%}
 
 nav {background-color:#34495E;
     color: #AEB6BF;
@@ -32,7 +33,8 @@ nav {background-color:#34495E;
     display: flex;
     justify-content:space-around;
     align-items: center;
-    height: 5vw}
+    height: 5vw;
+    width: 100vw}
 
 a:visited {color: #AEB6BF}
 a:link {color: #AEB6BF}
@@ -40,7 +42,9 @@ a:active {color: #AEB6BF}
 a:hover {font-size: 150%; font-style:oblique;}
 
 main {display: flex;
-      justify-content:space-around;}
+      justify-content:space-around;
+      width: 100vw;
+      height: 100vw}
 
 section {display: flex;
         width: 60vw;
@@ -49,25 +53,95 @@ section {display: flex;
         display: block;
         opacity:0.9;
         background-color: #99A3A4;
-        height: 100%}
+        height: 100vw;
+        box-sizing:border-box;
+        padding-left: 2%;
+        padding-right: 2%}
+
+#titulo {color:#1A237E;
+         font-family: 'Aladin', cursive;
+         background-color:#FDFEFE;
+        font-size:400%;
+        text-align: center;}
+
+.imagen {height: 15%;
+        width: 35%;
+        border:3;
+        border-color: black;
+        border-style: solid;}
+
+.subtitulos {color:#E8F8F5;
+            text-decoration: underline;
+            text-decoration-color: #1A237E;
+            text-decoration-style: wavy;
+            background-color:#566573;
+            font-family: 'Alegreya', serif;
+            text-align: center;
+            font-size: 180% }
+
+.explicacion {font-family: 'Roboto Slab', serif;
+              text-align: center;
+              font-size: 130%;}
+
+.mapasection {width: 50%;
+              height: 20%;}
+
 
 aside {display: flex;
+       height: 100vw;
        width: 35vw;
-       justify-content: center;
+       flex-direction: column;
+       justify-content:space-between;
        align-items:center;
-       overflow:auto;
-       display: block;
        opacity:0.9;
        background-color: #99A3A4;
-       font-size:120%;
-       height: 100%}
+       padding:2%;
+       box-sizing: border-box;}
 
-footer {width: 100vw;
-        height: 15vh;
+.receta {height: 60%; }
+
+
+.titreceta {color:#E8F8F5;
+           font-family: 'Alegreya', serif;
+           text-decoration: underline;
+           text-decoration-color: #1A237E;
+           background-color:#566573;
+           font-size: 350%;
+           text-align: center;}
+
+.subtitulos2 {color:#E8F8F5;
+             text-decoration-color: #1A237E;
+             background-color:#566573;
+             font-family: 'Alegreya', serif;
+             text-align: center;
+             font-size: 180% }
+
+
+.expreceta {font-family: 'Roboto Slab', serif;
+              font-size: 150%}
+
+.imagen2 {width: 75%;
+          height: 20%;
+          border:3;
+          border-color: black;
+          border-style: solid;}
+
+.video {display: flex;
+        display: block;
+        justify-content:center;
+        align-content: center;
+        align-items: center;
+        align-self: center;
+        height: 40%;}
+
+.video1 {width: 75%;
+         height: 75%}
+
+footer {display: flex;
+        width: 100vw;
+        height: 20vh;
         border-style: inset;
         background-color:#2C3E50;
-        padding: 15px;
-        display: flex;
         justify-content: center;
         justify-content:space-around;
         align-items: center;
@@ -77,60 +151,11 @@ footer {width: 100vw;
         color: #AEB6BF}
 
 .mapa {width: 15%;
-      height: 75%}
+      height: 80%}
 
 .autor {text-align: center;
         flex-direction: column;}
 
-#titulo {color:#1A237E;
-         font-family: 'Aladin', cursive;
-         background-color:#FDFEFE;
-         font-size:300%;
-         text-align: center;}
-
-.imagen {height: 300px;
-         width: 300px;
-         border:3;
-         border-color: black;
-         border-style: solid;}
-
-.subtitulos {color:#E8F8F5;
-            text-decoration: underline;
-            text-decoration-color: #1A237E;
-            text-decoration-style: wavy;
-            background-color:#566573;
-            font-family: 'Alegreya', serif;
-            text-align: center;}
-
-.explicacion {font-family: 'Roboto Slab', serif;
-              text-align: center;
-              font-size: 120%;}
-
-.receta {color:#E8F8F5;
-         font-family: 'Alegreya', serif;
-         text-decoration: underline;
-         text-decoration-color: #1A237E;
-         background-color:#566573;
-         font-size: 250%;
-         text-align: center;}
-
-.expreceta {font-family: 'Roboto Slab', serif;
-            font-size: 100%}
-
-
-.audio {position: fixed;
-        bottom: 10px;
-        right: 15px}
-
-.video {display: flex;
-        justify-content: center;
-        align-items: center;
-        align-self: center;}
-
-.txtvideo {color:#E8F8F5;
-          font-family: 'Alegreya', serif;
-          text-align: center;
-          background-color:#566573;}
 
 .wsp {width: 100px;
       position: fixed;
