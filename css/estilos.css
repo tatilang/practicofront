@@ -1,5 +1,7 @@
 body {background-color: #AEB6BF;
       background-image: url(../imagenes/fondo.jpg);
+      display: flex;
+      flex-direction: column;
       width: 100vw}
 
 header {width: 100vw;
@@ -185,3 +187,13 @@ footer {display: flex;
 .boton {background-color: #273746;
         border-style:outset;
         color:#ABB2B9}
+
+@media (max-width:700px){
+   .imgheader {display: none;}
+   .redes {flex-direction: column;}
+   .header {padding-left: 15%; padding-right: 15%;}
+}
+
+@media (min-width:700px) {
+    .wsp {display:none;}
+}
