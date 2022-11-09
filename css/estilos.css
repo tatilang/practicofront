@@ -12,18 +12,15 @@ header {width: 100vw;
         justify-content: center;
         justify-content:space-around;
         align-items: center;
-        flex-wrap:nowrap;
         font-family: 'Sansita Swashed', cursive;
         font-size: 30px;
         color: #AEB6BF}
 
 .redes {height:60%;
         width: 15%;
-        background-color:#34495E;
         display: flex;
         justify-content: space-around;
-        align-items: center;
-        border-radius: 5%;}
+        align-items: center;}
 
 .imgheader {border-radius: 5%;
             height: 60%}
@@ -36,7 +33,7 @@ nav {background-color:#34495E;
     display: flex;
     justify-content:space-around;
     align-items: center;
-    height: 5vw;
+    height: 15%;
     width: 100vw}
 
 a:visited {color: #AEB6BF}
@@ -46,6 +43,7 @@ a:hover {font-size: 150%; font-style:oblique;}
 
 main {display: flex;
       justify-content:space-around;
+      align-content: space-around;
       width: 100vw;
       height: 100vw}
 
@@ -59,13 +57,16 @@ section {display: flex;
         height: 100%;
         box-sizing:border-box;
         padding-left: 2%;
-        padding-right: 2%}
+        padding-right: 2%;
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+        font-size: 18px; }
 
 #titulo {color:#1A237E;
          font-family: 'Aladin', cursive;
          background-color:#FDFEFE;
-        font-size:400%;
-        text-align: center;}
+         font-size:60px;
+         text-align: center;}
 
 .imagen {height: 15%;
         width: 35%;
@@ -80,11 +81,7 @@ section {display: flex;
             background-color:#566573;
             font-family: 'Alegreya', serif;
             text-align: center;
-            font-size: 180% }
-
-.explicacion {font-family: 'Roboto Slab', serif;
-              text-align: center;
-              font-size: 130%;}
+            font-size: 30px }
 
 .mapasection {width: 50%;
               height: 20%;}
@@ -100,7 +97,10 @@ aside {display: flex;
        opacity:0.9;
        background-color: #99A3A4;
        padding:2%;
-       box-sizing: border-box;}
+       box-sizing: border-box;
+       font-family: 'Roboto Slab', serif;
+       text-align: center;
+       font-size: 18px;}
 
 .receta {height: 60%; }
 
@@ -110,22 +110,11 @@ aside {display: flex;
            text-decoration: underline;
            text-decoration-color: #1A237E;
            background-color:#566573;
-           font-size: 350%;
+           font-size: 50px;
            text-align: center;}
 
-.subtitulos2 {color:#E8F8F5;
-             text-decoration-color: #1A237E;
-             background-color:#566573;
-             font-family: 'Alegreya', serif;
-             text-align: center;
-             font-size: 180% }
-
-
-.expreceta {font-family: 'Roboto Slab', serif;
-              font-size: 120%}
-
-.imagen2 {width: 75%;
-          height: 15%;
+.imagen2 {width: 60%;
+          height: 10%;
           border:3;
           border-color: black;
           border-style: solid;}
@@ -188,12 +177,21 @@ footer {display: flex;
         border-style:outset;
         color:#ABB2B9}
 
+
+/**para pantallas de celular**/
 @media (max-width:700px){
    .imgheader {display: none;}
-   .redes {flex-direction: column;}
-   .header {padding-left: 15%; padding-right: 15%;}
+   header {width: 100vw;flex-direction: column;justify-content: space-around;align-self: center;height: 20%;text-align: center;font-size: 25px}
+   .redes {width: 40%}
+   main {flex-direction: column;height: 100%;}
+   section {width: 100vw;}
+   aside {width: 100vw;}
+   .mapa {display:none;}
+   nav {font-size: 20px;flex-direction: column;}
+   titulo {font-size: 25px;}
 }
 
+/**para pantallas de pc**/
 @media (min-width:700px) {
     .wsp {display:none;}
 }
