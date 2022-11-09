@@ -99,10 +99,9 @@ aside {display: flex;
        padding:2%;
        box-sizing: border-box;
        font-family: 'Roboto Slab', serif;
-       text-align: center;
        font-size: 18px;}
 
-.receta {height: 60%; }
+.receta {height: 60%;}
 
 
 .titreceta {color:#E8F8F5;
@@ -186,6 +185,8 @@ footer {display: flex;
    main {flex-direction: column;height: 100%;}
    section {width: 100vw;}
    aside {width: 100vw;}
+   .receta {width: 100%}
+   .video {width: 100%}
    .mapa {display:none;}
    nav {font-size: 20px;flex-direction: column;}
    titulo {font-size: 25px;}
