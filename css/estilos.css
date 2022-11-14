@@ -129,6 +129,12 @@ aside {display: flex;
 .video1 {width: 75%;
          height: 75%}
 
+.card {border: 5px;
+      border-color: white;
+      border-style: inset;
+      padding: 0.5rem;
+      margin: 1rem}
+
 footer {display: flex;
         width: 100vw;
         height: 20vh;
@@ -149,7 +155,7 @@ footer {display: flex;
         flex-direction: column;}
 
 
-.wsp {width: 100px;
+.wsp {width: 70px;
       position: fixed;
       bottom: 20px;
       right: 35px}
